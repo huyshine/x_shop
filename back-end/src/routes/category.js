@@ -12,6 +12,7 @@ import { isAdmin, isAuth, requireSignin } from "../middlerwares/checkAuth";
 
 const router = Router();
 
+
 router.get("/category", getCategories);
 router.get("/category/:id", listCategoryDetail);
 router.get("/category/get/:id", readCategory);
